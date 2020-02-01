@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Change Password</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/sidebar.css" rel="stylesheet">
+
+  <style>
+    .button {
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: black;
+      border: 1.5px solid black;
+      box-shadow: 2.5px 2.5px black;
+    }
+
+    .button:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+
+    input[type="password"] {
+      border: 2px solid black;
+    }
+
+    .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8f9779;
+    color: #8f9779;
+    text-align: center;
+    border: 2px solid black;
+  }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <div align="right" style="background-color: #8f9779; border-top: 2px solid black; border-bottom: 2px solid black;"><h1><i><b>Navigation</b></i></h1> </div>
+      <div class="list-group list-group-flush" align="center">
+        <a href="#" class="list-group-item list-group-item-action">Profile Page</a>
+        <a href="#" class="list-group-item list-group-item-action" style="border: 2px solid black;">Change Password</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8f9779; border-top: 2px solid black; border-bottom: 2px solid black;">
+        <!--<button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>-->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <b>User Name</b>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div align="center" style="border-left: 2px solid black; height: 90%;">
+        <h1 class="p-4" style="border-bottom: 1.5px solid black;">Change Password</h1>
+        <div class="row justify-content-center p-5">
+          <div class="col-sm-6" style="text-align: left;">
+            <form>
+              <div class="form-group row">
+                <label for="colFormLabelSm" class="col-sm-4 col-form-label col-form-label-sm">Previous Password</label>
+                <div class="input-group col-sm-7">
+                  <span class="input-group-addon" style="border: none; background-color: white;">:</span>
+                  &emsp;<input type="password" class="form-control form-control-sm">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="colFormLabelSm" class="col-sm-4 col-form-label col-form-label-sm">New Password</label>
+                <div class="input-group col-sm-7">
+                  <span class="input-group-addon" style="border: none; background-color: white;">:</span>
+                  &emsp;<input type="password" class="form-control form-control-sm">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="colFormLabelSm" class="col-sm-4 col-form-label col-form-label-sm">Confirm Password</label>
+                <div class="input-group col-sm-7">
+                  <span class="input-group-addon" style="border: none; background-color: white;">:</span>
+                  &emsp;<input type="password" class="form-control form-control-sm">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-11" align="right">
+                  <button class="button" style="background-color: white;">Change Password</button>&emsp;<button class="button" style="background-color: white;">Clear</button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <div class="footer">
+    <p>Footer</p>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+  /*
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+    */
+  </script>
+
+</body>
+
+</html>
